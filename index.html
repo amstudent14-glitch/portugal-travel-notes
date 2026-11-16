@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>葡萄牙旅行手帖 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Huninn&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFFCF6;--ink:#3E3A39;--c:#F2A497;--y:#F6D27A;--b:#A8D3E6;--g:#B9DAA5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Huninn','PingFang TC','Noto Sans TC',sans-serif;line-height:1.6;font-size:16px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+nav{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:20;background:var(--bg);border-bottom:3px solid var(--ink);display:flex;gap:6px;padding:8px 10px;overflow-x:auto}
+nav a,nav button{flex:none;font:inherit;font-size:14px;color:var(--ink);text-decoration:none;background:var(--bg);border:3px solid var(--ink);border-radius:999px;padding:2px 12px;cursor:pointer}
+nav a:nth-child(1){background:var(--c)}nav a:nth-child(2){background:var(--y)}nav a:nth-child(3){background:var(--b)}nav a:nth-child(4){background:var(--g)}nav a:nth-child(5){background:var(--c)}
+nav button{margin-left:auto;background:var(--y)}nav button.on{background:var(--ink);color:var(--bg)}
+main{max-width:720px;margin:0 auto;padding:64px 14px 40px}
+section{margin-top:28px}h2{font-size:22px;margin:0 0 12px;display:inline-block;background:var(--y);border:3px solid var(--ink);border-radius:999px;padding:0 16px}
+.card{background:var(--bg);border:3px solid var(--ink);border-radius:24px;padding:14px 16px;margin-bottom:12px;box-shadow:4px 4px 0 var(--ink)}
+.hero{text-align:center;background:var(--b);padding:0;overflow:hidden}.hero svg{display:block;width:100%;height:auto}
+.hero .tx{background:var(--bg);border-top:3px solid var(--ink);padding:12px}
+.hero h1{margin:0;font-size:28px}.cd{display:inline-block;margin-top:8px;background:var(--c);border:3px solid var(--ink);border-radius:999px;padding:2px 18px}.cd b{font-size:26px}
+input,textarea,select{font:inherit;color:var(--ink);background:#fff;border:2px dashed var(--ink);border-radius:10px;padding:2px 8px;width:100%;margin:2px 0}
+textarea{resize:vertical;min-height:40px}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.sm{font-size:14px;opacity:.85}
+.fl{display:flex;justify-content:space-between;gap:10px;align-items:center}.fl .big{font-size:20px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 10px}
+.tab{flex:none;font:inherit;color:var(--ink);background:var(--bg);border:3px solid var(--ink);border-radius:18px;padding:2px 12px;text-align:center;cursor:pointer;line-height:1.3}
+.tab small{display:block;font-size:12px}.tab.on{background:var(--c);transform:translateY(-3px)}
+.tl{position:relative;padding-left:22px;margin-top:8px}.tl::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;border-left:3px dashed var(--ink)}
+.pop{animation:pop .5s cubic-bezier(.3,1.6,.5,1)}
+.it{position:relative;margin-bottom:12px}.it::before{content:"";position:absolute;left:-22px;top:14px;width:13px;height:13px;border-radius:50%;background:var(--y);border:3px solid var(--ink)}
+.it.must::before{background:var(--c)}.it .card{margin:0;padding:10px 14px;box-shadow:3px 3px 0 var(--ink)}
+.tm{font-size:14px;color:var(--ink);background:var(--g);border:2px solid var(--ink);border-radius:999px;padding:0 10px;display:inline-block}
+.tag{font-size:13px;border:2px solid var(--ink);border-radius:999px;padding:0 9px;display:inline-block}
+.must-b{font-size:13px;background:var(--c);border:2px solid var(--ink);border-radius:999px;padding:0 9px;display:inline-block;transform:rotate(-4deg)}
+.it h3{margin:4px 0 0;font-size:17px}
+.btn{font:inherit;font-size:14px;color:var(--ink);background:var(--g);border:3px solid var(--ink);border-radius:999px;padding:1px 14px;cursor:pointer}.btn.d{background:var(--c)}
+.ck{display:flex;gap:10px;align-items:center;padding:4px 0;cursor:pointer}.ck input[type=checkbox]{appearance:none;width:24px;height:24px;flex:none;border:3px solid var(--ink);border-radius:8px;background:#fff;margin:0;padding:0;cursor:pointer}
+.ck input:checked{background:var(--g)}.ck input:checked::after{content:"✓";display:block;text-align:center;line-height:18px;font-weight:bold}
+.ck.done span{text-decoration:line-through;opacity:.55}
+.bar{background:var(--y);border:3px solid var(--ink);border-radius:18px;padding:8px 12px;margin-bottom:12px}
+.bar .row{margin-top:6px}
+footer{text-align:center;margin-top:30px;font-size:13px;opacity:.7}
+@keyframes pop{0%{transform:scale(.88) translateY(14px);opacity:0}100%{transform:none;opacity:1}}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes dr{0%{transform:translateX(-60px)}100%{transform:translateX(560px)}}
+@keyframes sw{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+.a1{animation:fl 4s ease-in-out infinite}.a2{animation:fl 5.5s ease-in-out infinite .8s}.a3{animation:dr 18s linear infinite}.a4{animation:sw 3.5s ease-in-out infinite;transform-origin:50% 100%}.a5{transform-origin:480px 52px;animation:sp 40s linear infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<nav id="nav"><a href="#home">首頁</a><a href="#flight">航班</a><a href="#days">行程</a><a href="#lists">清單</a><a href="#hotel">住宿</a><button id="adm" aria-label="後台模式">🔒 後台</button></nav>
+<main id="app"></main>
+<script>
+const K='pt27v1';
+const T={步行:'--g',火車:'--b',搭車:'--c',接駁:'--y'};
+const DEF={title:'葡萄牙旅行手帖',sub:'里斯本 · 辛特拉 · 波多 · 杜羅河谷 · 阿威羅',start:'2027-04-18',end:'2027-04-27',pw:'1234',
+flights:[{dir:'去程',date:'4/17 或 4/18',no:'航班待填',route:'台北 → 里斯本 LIS',time:'抵達時間待填',note:'請以 2027 年最新訂單為準'},{dir:'回程',date:'4/27',no:'航班待填',route:'里斯本 LIS → 台北',time:'起飛時間待填',note:'預留機場、託運與安檢緩衝'}],
+hotels:[{city:'里斯本（前段）',dates:'4/18–4/22',name:'飯店名稱待填',addr:'地址待填',note:'4/22 先確認行李寄放'},{city:'波多',dates:'4/22–4/26',name:'飯店名稱待填',addr:'地址待填',note:'靠近 São Bento 車站較方便'},{city:'里斯本（返程）',dates:'4/26–4/27',name:'飯店名稱待填',addr:'地址待填',note:'隔日機場日'}],
+lists:{todo:{t:'待辦預約',i:[['Belcanto 4/21 生日晚餐訂位',0],['Pena 宮入宮時段',0],['Graham’s 1890 導覽 4/24 15:30',0],['Quinta das Carvalhas 酒莊時段',0],['CP 火車：4/22、4/25、4/26 班次',0],['Fronteira 宮導覽預約',0],['確認 4/19 日落時間',0]]},
+pre:{t:'出發前清單',i:[['護照效期（6 個月以上）',0],['旅遊保險',0],['信用卡與海外提款',0],['手機網路／eSIM',0],['下載離線地圖',0],['換少量歐元現金',0],['確認 2027 年機票',0],['重查各景點開放時間與車次',0]]},
+pack:{t:'行李清單',i:[['護照、機票電子檔',0],['轉接插頭（歐規）',0],['行動電源、充電線',0],['好走的鞋（石板坡多）',0],['薄外套、輕便雨具',0],['防曬用品、帽子',0],['洗漱與常備藥品',0],['環保袋（帶蛋塔和戰利品）',0]]}},
+days:[
+{date:'4/18',wk:'日',title:'抵達里斯本・貝倫河岸',items:[['抵達','LIS 機場 → 飯店','入住後休息；依航班縮短路線','搭車',0],['晚上','Taberna dos Ferreiros 晚餐','★ 章魚、烤沙丁魚、葡式鴨飯','搭車',0],['飯後','貝倫河岸散步・Pastéis de Belém','貝倫蛋塔；太晚到就直接休息','步行',0]]},
+{date:'4/19',wk:'一',title:'城堡・老城・廣場與日落',items:[['上午','聖喬治城堡 → 聖露西亞觀景台 → 主教座堂','俯瞰阿爾法瑪紅瓦屋頂與磁磚畫','步行',1],['午餐','Agulha no Palheiro','★ Pica-pau 葡式炒牛肉塊','步行',0],['午後','商業廣場 → 奧古斯塔街 → 羅西奧','順路逛罐頭工坊 Conserveira de Lisboa','步行',0],['下午','卡爾莫修道院／聖胡斯塔升降機（二選一）','排隊太久就只看外觀','步行',1],['傍晚','Manteigaria 蛋塔・Senhora do Monte 日落','日落時間請重查','搭車',0],['晚餐','Taberna da Rua das Flores','★ 當日黑板菜','步行',0]]},
+{date:'4/20',wk:'二',title:'Belém 航海史・LX Factory',items:[['上午','熱羅尼莫斯修道院 → 發現者紀念碑 → 貝倫塔','修道院週二至週日開放；迴廊最值得留時間','步行',1],['午餐','O Prado','★ 烤魚、炒牛肉塊、鱈魚料理','步行',0],['午後','LX Factory 創意園區','散步逛店','搭車',0],['晚餐','Guelra Restaurante','★ 深海紅蝦燉飯、蒜香蝦、生蠔','搭車',0]]},
+{date:'4/21',wk:'三',title:'Sintra 生日・Belcanto',items:[['07:45','飯店 → Campolide 車站 → 辛特拉','早餐 O Melhor Croissant da Rua','火車',0],['上午','佩納宮 Pena Palace','山上可搭接駁，預留園區步行時間','接駁',1],['午餐','Incomum by Luís Santos','★ 章魚、黑色扁麵','步行',0],['午後','雷加萊拉莊園','螺旋啟蒙井與地下通道','步行',1],['傍晚','火車返 Rossio，休息換裝','','火車',0],['晚上','Belcanto 生日晚餐 🎂','★ 品嚐套餐；本日最高優先','搭車',1]]},
+{date:'4/22',wk:'四',title:'Fronteira 瓷磚 → 波多',items:[['上午','弗龍泰拉宮瓷磚庭園導覽','先確認行李寄放；瓷磚博物館整修中','搭車',1],['午餐','A Tasquinha do Lagarto','詢問當日料理','搭車',0],['下午','取行李 → CP 城際列車 → 波多 Campanhã','出發站與班次待確認','火車',0],['晚上','Tapabento S. Bento','★ 海鮮、伊比利黑豬','步行',0]]},
+{date:'4/23',wk:'五',title:'波多藍白磁磚步行日',items:[['上午','聖本篤車站 → 巴塔利亞廣場 → 聖伊爾德豐索堂 → 靈魂禮拜堂','車站大廳約兩萬片磁磚','步行',1],['午餐','O Rápido','★ 波多式牛肚燉豆','步行',0],['午後','卡爾莫教堂 → Lello → 牧師塔 → 勝利觀景台 → 花街 → 主教座堂','Lello、Clérigos 排隊久就看外觀','步行',0],['晚餐','Taberna dos Mercadores','★ 海鮮麵包燉、章魚焗飯','步行',0]]},
+{date:'4/24',wk:'六',title:'Ribeira・Gaia 與酒窖',items:[['上午','交易所宮 → 里貝拉河岸 → 路易一世橋','阿拉伯廳是重點','步行',1],['午餐','Casa Dias（Gaia）','★ Francesinha 波多三明治','步行',0],['15:30','Graham’s 1890 導覽與品酒','約兩小時，須預約','步行',1],['傍晚','莫羅花園看日落','','步行',0],['晚餐','Cozinha da Ci','★ 燉豬頰、炸鱈魚球','搭車',0]]},
+{date:'4/25',wk:'日',title:'Douro 河谷・Pinhão',items:[['上午','CP 杜羅線 → Pinhão','Régua 是否轉車看當日班表','火車',1],['中午','皮尼昂車站磁磚 → Quinta das Carvalhas','葡萄園導覽與試飲，先預約','步行',1],['午餐','酒莊或鎮上午餐','★ 肉料理配杜羅葡萄酒','',0],['晚上','火車返波多・自由晚餐','保留返程緩衝','火車',0]]},
+{date:'4/26',wk:'一',title:'Aveiro・Costa Nova → 里斯本',items:[['上午','波多 → 阿威羅','先寄放行李','火車',0],['上午','舊車站・新藝術街區','Museu Arte Nova 週一不開，看外觀','步行',1],['午餐','阿威羅午餐（待選）','★ Ovos Moles 軟蛋黃甜點','步行',0],['午後','Costa Nova 條紋屋','','搭車',1],['晚上','火車 → 里斯本，入住','晚餐依車次','火車',0]]},
+{date:'4/27',wk:'二',title:'返程機場日',items:[['早上','飯店退房 → 咖啡 + 蛋塔','','',0],['上午','前往 LIS 機場','預留託運與安檢時間','搭車',0]]}]};
+let D;try{D=JSON.parse(localStorage.getItem(K))}catch(e){}D=D||JSON.parse(JSON.stringify(DEF));
+const EX={
+'4/18':{a:['','Sardinhas Assadas 烤沙丁魚・Arroz de Pato 葡式鴨飯；甜點 Pastel de Belém 貝倫蛋塔',''],s:[['貝倫 Belém','塔霍河沿岸的航海史街區，今晚只感受河岸，明天再細看修道院與河口古蹟。']]},
+'4/19':{a:['','Polvo 章魚・Camarão 蝦・Atum 鮪魚','','','A Vida Portuguesa 與 Bertrand Chiado 書店擇一，皆為選項','點心：Pastel de Nata 葡式蛋塔'],s:[['聖喬治城堡','山丘自鐵器時代就有人居住，1147年後成王室要地；沿城牆可看紅瓦屋頂、塔霍河與各時代遺跡。'],['聖露西亞觀景台','露台牆面有舊城磁磚畫，先看畫、再轉身對照眼前街景，是最直接的 azulejos 體驗。'],['里斯本主教座堂','1147年後興建，羅馬式雙塔與後世改建並存，見證多次地震後的修補。'],['商業廣場與卡爾莫','1755年地震毀去舊王宮，廣場成為重建門面；卡爾莫無屋頂的拱柱保留災難另一面。'],['聖胡斯塔與兩座觀景台','升降機連接低處 Baixa 與高處 Carmo；Senhora do Monte 日落前側光最適合看屋頂。']]},
+'4/20':{a:['','Pica-pau 炒牛肉塊・Bacalhau 鹽漬鱈魚料理','','Arroz de Carabineiro 紅蝦燉飯・Camarão ao Alho 蒜香蝦・Ostras 生蠔'],s:[['熱羅尼莫斯修道院','曼努埃爾式建築代表，迴廊石雕把繩索、植物與海洋意象編入柱廊；只入內一處就選這裡。'],['發現者紀念碑','1960年重建，船首排列航海時代人物；也想想哪些人被紀念、哪些沒有。'],['貝倫塔','十六世紀初的河口防禦塔；沿河岸走遠一點再回頭看，更能理解守望功能。'],['LX Factory','阿爾坎塔拉舊工業區改造的書店、餐廳與設計店，可抬頭看廠房骨架與牆面作品。']]},
+'4/21':{a:['早餐：O Melhor Croissant da Rua 可頌','備案：摩爾人城堡或蒙塞拉特宮擇一，體力與預約允許才加','Linguine Negro 黑色扁麵・Ravioli de Cogumelos 蘑菇餃','','','Menu de Degustação 品嚐套餐，以訂位與當季菜單為準'],s:[['佩納宮','1838年費迪南二世買下十六世紀修道院改建，紅黃外牆與多種風格並置，別忽略修道院舊部分。'],['摩爾人城堡','十世紀伊斯蘭時期所建，守住辛特拉山脊；重點在地形與貼合岩石的城牆。'],['雷加萊拉莊園','近代園林設計：宮邸、螺旋啟蒙井與地下通道，由地面走入井底再從通道離開，慢慢走即可。'],['蒙塞拉特宮','十九世紀英國收藏家打造的宮殿與植物園，哥德、印度與摩爾式元素交織，為備案。']]},
+'4/22':{a:['備案 A：國家瓷磚博物館，官方列整修關閉，重新開放才採用','Prato do Dia 當日料理（建議詢問，非已核對菜單）','','Marisco 海鮮・Porco Preto 伊比利黑豬'],s:[['弗龍泰拉宮','約1670年興建的夏季宅邸，1755年地震後擴建為主要居所，保存大量十七世紀原址磁磚。'],['國王長廊','長廊、噴泉與磁磚矮牆圍出正式花園，留意磁磚畫如何順著牆面轉折。'],['騎士湖','十七世紀庭園景觀，從湖邊回望長廊，水面與磁磚畫彼此映照。'],['國家瓷磚博物館','設在舊修道院，目前整修關閉；2027重開後再依班次決定是否替換。']]},
+'4/23':{a:['Bolhão 市場可選','Bacalhau 鱈魚料理','','Polvo com Arroz no Forno 章魚焗飯・Bacalhau'],s:[['聖本篤車站','大廳約兩萬片磁磚由若熱・科拉索創作，先站中央看整面牆，再靠近分辨人物。'],['聖伊爾德豐索堂','正面磁磚同出科拉索之手，先從廣場看完整立面。'],['靈魂禮拜堂','1929年外牆覆上藍白磁磚，描繪聖方濟各與聖加大利納，繞到轉角看畫面連續。'],['卡爾莫教堂','十八世紀洛可可建築，側牆磁磚畫為1912年增設，旁邊還夾著極窄小屋。'],['波多主教座堂','羅馬式根基疊加哥德與巴洛克，迴廊有大型磁磚，是理解舊城與河港關係的起點。']]},
+'4/24':{a:['','是否供應以當日菜單為準','須預訂確認','','Pastéis / Bolinhos de Bacalhau 炸鱈魚球'],s:[['證券交易所宮','1832年大火後由商會興建，最著名的阿拉伯廳於1880年完成。'],['里貝拉河岸','窄巷、階梯與層疊街屋，石板路不平，散步放慢；屬世界遺產範圍。'],['路易一世橋','1886年啟用的雙層鐵橋，上層看河谷全景、下層回望拱形鋼構。'],['Graham’s 1890 酒窖','1820年創立，葡萄自河谷來、波特酒在對岸熟成；隔天去皮尼昂就能對上地形。']]},
+'4/25':{a:['','','Pinhão 餐廳待訂，無特定餐廳與菜單已確認','晚餐候選：Bacalhau 鹽漬鱈魚或 Peixe Grelhado 烤魚'],s:[['杜羅河谷','梯田記錄數百年種葡萄的歷史；春天是生長季，不是秋收畫面。'],['皮尼昂車站','磁磚畫描繪葡萄採收、波特酒製作與河上運酒，先沿兩側牆面慢慢看。'],['Quinta das Carvalhas','保存老藤與在地品種，導覽與試飲依預訂方案不同。']]},
+'4/26':{a:['','先確認行李寄放營業時間','Peixe do Dia 當日魚料理或 Prato do Dia 今日特餐（候選），飯後吃 Ovos Moles','','晚餐依車次，里斯本待選'],s:[['阿威羅舊車站','外牆磁磚描繪地方風景，與波多聖本篤、皮尼昂形成磁磚旅行線。'],['新藝術街區','植物曲線、鍛鐵陽台與彩色磁磚；Museu Arte Nova 週一不開，看外觀即可。'],['阿威羅軟蛋黃','Ovos Moles：蛋黃與糖內餡包在薄聖餅皮，做成魚、貝殼造型，白天品嚐或帶走。'],['Costa Nova 條紋屋','源自漁民木屋 Palheiros，現為度假聚落標誌，可挑喜歡的街段慢走。']]},
+'4/27':{a:['Café 咖啡 + Pastel de Nata 葡式蛋塔','午餐、晚餐依航班時間在途中或機場用餐'],s:[['回望 azulejos','若有空檔，回想一路見過的磁磚：里斯本山城街角、波多整片歷史畫面、阿威羅車站。']]}};
+const mig=()=>D.days.forEach(d=>{const x=EX[d.date];if(!x)return;if(!d.sites)d.sites=x.s.map(a=>a.slice());d.items.forEach((it,j)=>{if(it[5]===undefined)it[5]=x.a[j]||''})});
+const SITES=d=>{const s=d.sites||(d.sites=[]);return h('div',{},(s.length||admin)?h('h2',{st:'margin-top:20px;background:var(--b)'},'📖 景點故事'):'',s.map((x,i)=>{const o={get n(){return x[0]},set n(v){x[0]=v},get t(){return x[1]},set t(v){x[1]=v}};return h('div',{cls:'card'},h('b',{},F(o,'n','景點')),h('div',{cls:'sm'},F(o,'t','故事',1)),admin?del(s,i):'')}),add('新增景點',()=>s.push(['景點',''])))};
+mig();
+let admin=false,cur=0;
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(D))}catch(e){}};
+const h=(t,a={},...c)=>{const e=document.createElement(t);for(const[k,v]of Object.entries(a)){if(k.startsWith('on'))e.addEventListener(k.slice(2),v);else if(k==='cls')e.className=v;else if(k==='st')e.style.cssText=v;else e.setAttribute(k,v)}c.flat().forEach(x=>x!=null&&e.append(x));return e};
+const F=(o,k,ph,multi)=>{if(!admin)return o[k]?h('span',{},o[k]):'';const e=h(multi?'textarea':'input',{placeholder:ph||''});e.value=o[k]||'';e.oninput=()=>{o[k]=e.value;save()};return e};
+const R=()=>{const y=scrollY;draw();scrollTo(0,y)};
+const del=(a,i)=>h('button',{cls:'btn d',onclick:()=>{if(confirm('確定刪除？')){a.splice(i,1);save();R()}}},'刪除');
+const add=(txt,fn)=>admin?h('button',{cls:'btn',onclick:()=>{fn();save();R()}},'＋ '+txt):'';
+function hero(){const s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('viewBox','0 0 600 300');s.setAttribute('role','img');s.setAttribute('aria-label','貝倫塔、黃色電車與海邊風景插圖');
+s.innerHTML=`<rect width="600" height="300" fill="#A8D3E6"/>
+<g class="a5"><circle cx="480" cy="52" r="26" fill="#F6D27A" stroke="#3E3A39" stroke-width="3"/><path d="M480 14v-8M480 98v-8M442 52h-8M526 52h-8" stroke="#3E3A39" stroke-width="3" stroke-linecap="round"/></g>
+<g class="a1"><path d="M60 70q0-22 24-22 8-16 28-10 14-6 24 8 20 2 18 22z" fill="#FFFCF6" stroke="#3E3A39" stroke-width="3"/></g>
+<g class="a2"><path d="M300 40q0-16 18-16 6-12 22-6 12-4 18 8 14 2 12 14z" fill="#FFFCF6" stroke="#3E3A39" stroke-width="3"/></g>
+<path d="M0 190q100-40 200-10t220-20 180 20v110H0z" fill="#B9DAA5" stroke="#3E3A39" stroke-width="3"/>
+<g class="a4"><path d="M390 150h50v-70h-8v-10h8l-4-16h-42l-4 16h8v10h-8z" fill="#FFFCF6" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/><path d="M386 150h58v18h-58z" fill="#F2A497" stroke="#3E3A39" stroke-width="3"/><rect x="408" y="96" width="14" height="22" rx="7" fill="#A8D3E6" stroke="#3E3A39" stroke-width="3"/><path d="M392 54l10-18 10 18M418 54l10-18 10 18" fill="#F6D27A" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/></g>
+<path d="M0 232h600v68H0z" fill="#A8D3E6" stroke="#3E3A39" stroke-width="3"/>
+<path d="M0 232h600" stroke="#3E3A39" stroke-width="3"/><path d="M30 258q15-10 30 0t30 0M210 270q15-10 30 0t30 0M420 255q15-10 30 0t30 0" fill="none" stroke="#FFFCF6" stroke-width="4" stroke-linecap="round"/>
+<g class="a3"><rect x="0" y="176" width="92" height="46" rx="14" fill="#F6D27A" stroke="#3E3A39" stroke-width="3"/><rect x="10" y="186" width="22" height="18" rx="5" fill="#FFFCF6" stroke="#3E3A39" stroke-width="3"/><rect x="40" y="186" width="22" height="18" rx="5" fill="#FFFCF6" stroke="#3E3A39" stroke-width="3"/><rect x="68" y="186" width="16" height="30" rx="5" fill="#F2A497" stroke="#3E3A39" stroke-width="3"/><path d="M46 176l14-22h22" fill="none" stroke="#3E3A39" stroke-width="3" stroke-linecap="round"/><circle cx="22" cy="224" r="7" fill="#3E3A39"/><circle cx="70" cy="224" r="7" fill="#3E3A39"/></g>
+<g class="a1"><path d="M110 236l40 0-8 18h-24z" fill="#F2A497" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/><path d="M130 236v-40l24 34z" fill="#FFFCF6" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round"/></g>`;return s}
+function cd(){const d=Math.ceil((new Date(D.start+'T00:00:00')-new Date())/864e5),e=Math.ceil((new Date(D.end+'T23:59:59')-new Date())/864e5);return d>0?h('div',{cls:'cd'},'出發倒數 ',h('b',{},d),' 天'):e>=0?h('div',{cls:'cd'},'旅行進行中 ✈️'):h('div',{cls:'cd'},'旅程完成，歡迎回家 🏠')}
+function draw(){const a=document.getElementById('app');a.innerHTML='';
+if(admin){const pw=h('button',{cls:'btn',onclick:()=>{const p=prompt('新密碼');if(p){D.pw=p;save()}}},'改密碼');
+const ex=h('button',{cls:'btn',onclick:()=>{const t=JSON.stringify(D,null,1);navigator.clipboard&&navigator.clipboard.writeText(t).then(()=>alert('已複製 JSON 到剪貼簿'),()=>prompt('複製 JSON',t))}},'匯出 JSON');
+const im=h('button',{cls:'btn',onclick:()=>{const t=prompt('貼上 JSON');if(t){try{D=JSON.parse(t);mig();save();R()}catch(e){alert('格式錯誤')}}}},'匯入');
+const rs=h('button',{cls:'btn d',onclick:()=>{if(confirm('重設為預設內容？')){D=JSON.parse(JSON.stringify(DEF));mig();save();R()}}},'重設');
+a.append(h('div',{cls:'bar'},'✏️ 後台模式：所有文字都可直接修改，自動儲存在此瀏覽器。',h('div',{cls:'row'},pw,ex,im,rs)))}
+a.append(h('section',{id:'home'},h('div',{cls:'card hero'},hero(),h('div',{cls:'tx'},h('h1',{},F(D,'title')),h('div',{cls:'sm'},F(D,'sub')),admin?h('div',{cls:'row'},h('span',{},'出發'),(()=>{const i=h('input',{type:'date'});i.value=D.start;i.onchange=()=>{D.start=i.value;save();R()};return i})(),h('span',{},'返回'),(()=>{const i=h('input',{type:'date'});i.value=D.end;i.onchange=()=>{D.end=i.value;save()};return i})()):'',cd()))));
+a.append(h('section',{id:'flight'},h('h2',{},'✈️ 航班'),D.flights.map((f,i)=>h('div',{cls:'card'},h('div',{cls:'fl'},h('span',{cls:'tm'},F(f,'dir')),h('span',{cls:'sm'},F(f,'date'))),h('div',{cls:'big'},F(f,'route')),h('div',{},F(f,'no'),' ',F(f,'time')),h('div',{cls:'sm'},F(f,'note')),admin?del(D.flights,i):'')),add('新增航班',()=>D.flights.push({dir:'航班',date:'',no:'',route:'',time:'',note:''}))));
+a.append(h('section',{id:'days'},h('h2',{},'🗓️ 每日行程'),h('div',{cls:'tabs'},D.days.map((d,i)=>h('button',{cls:'tab'+(i===cur?' on':''),onclick:()=>{cur=i;draw();const t=document.getElementById('tl');t.classList.add('pop');document.getElementById('days').scrollIntoView()}},d.date,h('small',{},'週'+d.wk)))),(()=>{const d=D.days[cur];if(!d)return h('div');
+return h('div',{id:'tl'},h('div',{cls:'card',st:'background:#B9DAA5'},admin?h('div',{cls:'row'},F(d,'date'),F(d,'wk','週幾')):'',h('b',{},F(d,'title')),admin?h('div',{},del(D.days,cur)):''),
+h('div',{cls:'tl'},d.items.map((it,i)=>{const o={get time(){return it[0]},set time(v){it[0]=v},get title(){return it[1]},set title(v){it[1]=v},get note(){return it[2]},set note(v){it[2]=v},get alt(){return it[5]||''},set alt(v){it[5]=v}};
+const col=T[it[3]]||'--bg';
+return h('div',{cls:'it'+(it[4]?' must':'')},h('div',{cls:'card'},h('div',{cls:'row'},it[0]||admin?h('span',{cls:'tm'},F(o,'time','時間')):'',it[3]&&!admin?h('span',{cls:'tag',st:`background:var(${col})`},it[3]):'',it[4]&&!admin?h('span',{cls:'must-b'},'必去'):''),
+admin?h('div',{cls:'row'},(()=>{const s=h('select',{},['','步行','火車','搭車','接駁'].map(x=>h('option',{value:x},x||'（無交通）')));s.value=it[3];s.onchange=()=>{it[3]=s.value;save()};return s})(),h('label',{cls:'ck'},(()=>{const c=h('input',{type:'checkbox'});c.checked=!!it[4];c.onchange=()=>{it[4]=c.checked?1:0;save()};return c})(),h('span',{},'必去'))):'',
+h('h3',{},F(o,'title','行程')),h('div',{cls:'sm'},F(o,'note','備註',1)),it[5]||admin?h('div',{cls:'sm',st:'margin-top:6px;border:2px dashed var(--ink);border-radius:10px;padding:2px 8px;background:var(--bg)'},F(o,'alt','備選／其他菜色',1)):'',admin?del(d.items,i):''))})),
+add('新增行程',()=>d.items.push(['','新行程','','步行',0,''])),SITES(d))})(),add('新增一天',()=>{D.days.push({date:'新日期',wk:'',title:'新的一天',items:[]});cur=D.days.length-1})));
+a.append(h('section',{id:'lists'},h('h2',{},'✅ 清單'),Object.values(D.lists).map(L=>h('div',{cls:'card'},h('b',{},admin?F(L,'t'):L.t,!admin?h('span',{cls:'sm'},` ${L.i.filter(x=>x[1]).length}/${L.i.length}`):''),L.i.map((x,i)=>{const o={get v(){return x[0]},set v(s){x[0]=s}};
+return h('label',{cls:'ck'+(x[1]&&!admin?' done':'')},(()=>{const c=h('input',{type:'checkbox'});c.checked=!!x[1];c.onchange=()=>{x[1]=c.checked?1:0;save();if(!admin)R()};return c})(),admin?F(o,'v'):h('span',{},x[0]),admin?del(L.i,i):'')}),add('新增項目',()=>L.i.push(['新項目',0]))))));
+a.append(h('section',{id:'hotel'},h('h2',{},'🏨 住宿'),D.hotels.map((x,i)=>h('div',{cls:'card'},h('div',{cls:'fl'},h('span',{cls:'tm'},F(x,'city')),h('span',{cls:'sm'},F(x,'dates'))),h('div',{cls:'big'},F(x,'name')),h('div',{},F(x,'addr')),h('div',{cls:'sm'},F(x,'note')),admin?del(D.hotels,i):'')),add('新增住宿',()=>D.hotels.push({city:'',dates:'',name:'',addr:'',note:''}))));
+a.append(h('footer',{},'開放時間、車次與菜單請於 2027 出發前重查 🌷'))}
+document.getElementById('adm').onclick=function(){if(!admin){const p=prompt('請輸入後台密碼（預設 1234）');if(p===null)return;if(p!==D.pw){alert('密碼錯誤');return}}admin=!admin;this.classList.toggle('on',admin);this.textContent=admin?'🔓 退出後台':'🔒 後台';R()};
+const t=Math.floor((Date.now()-new Date(D.start+'T00:00:00'))/864e5);if(t>=0&&t<D.days.length)cur=t;
+draw();
+</script></body></html>
